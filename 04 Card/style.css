@@ -1,0 +1,53 @@
+.img-box{
+    width: 370px;
+    height: 220px;
+    border: 2px solid grey;
+    border-width: thin;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.responsivness{
+    width: 100%;
+    height: auto;
+}
+
+.box2{
+    width: 350px;
+    padding: 10px;
+    border: 2px solid grey;
+    border-width: thin;
+}
+
+h2{
+    font-family: 'Roboto';
+}
+
+p{
+    font-size: 140%;
+    font-family: 'Roboto';
+    ;
+    
+}
+
+.p-boxes > p{
+    width: 350px;
+    height: 30px;
+    border: 2px solid grey;
+    border-width: thin;
+    padding: 10px;
+    margin: 0
+}
+
+.link-box{
+    width: 344px;
+    height: 25px;
+    border: 2px solid grey;
+    border-width: thin;
+    border-radius: 0px 0px 5px 5px;
+    padding: 13px;
+    margin: 0
+}
+
+a{
+    font-size: 110%;
+}
