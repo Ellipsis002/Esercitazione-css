@@ -1,0 +1,49 @@
+li {
+    display: inline;
+    padding-left: 10px;
+    list-style: none;
+    
+}
+
+
+.navbar{
+    background-color: #3d3c3a;
+    height: 50px;
+    display: flex;  
+    width: 40%;
+    
+}
+
+b{
+    color: white;
+    
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: darkgrey;
+}
+
+button{
+
+    background-color: #3d3c3a;
+    border: 3px solid green;
+    border-width: 1px;
+    size: 120%;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+input{
+    height: 20px;
+}
+
+@media (min-width: 768px) {
+    
+}
