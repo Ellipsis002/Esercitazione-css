@@ -1,0 +1,139 @@
+section{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr)  ;  
+    max-width: 30%; 
+    height:300px;
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+div{ 
+     border: 1px solid black;
+     text-align: center;
+     font-size: 40px;
+     border-radius: 2px 2px 2px 2px;
+     
+    }
+
+.uno{
+    background-color: aliceblue;
+    grid-column: 1;
+    grid-row: 5 ;
+    text-align: center;
+    
+}
+
+
+.due{
+    background-color: aliceblue;
+    grid-column: 2;
+    grid-row: 5 ;
+}
+
+.tre{
+    background-color: aliceblue;
+    grid-column: 3;
+    grid-row: 5 ;
+}
+
+.quattro{
+    background-color: aliceblue;
+    grid-column: 1;
+    grid-row: 4 ;
+}
+
+.cinque{
+    background-color: aliceblue;
+    grid-column: 2;
+    grid-row: 4 ;
+}
+
+.sei{
+    background-color: aliceblue;
+    grid-column: 3;
+    grid-row: 4 ;
+}
+
+.sette{
+    background-color: aliceblue;
+    grid-column: 1;
+    grid-row: 3 ;
+}
+
+.otto{
+    background-color: aliceblue;
+    grid-column: 2;
+    grid-row: 3 ;
+}
+
+.nove{
+    background-color: aliceblue;
+    grid-column: 3;
+    grid-row: 3 ;
+}
+    
+
+.zer{
+    background-color: aliceblue;
+    grid-column: 1;
+    grid-row: 6 ; 
+    
+}
+
+.punto{
+    background-color: aliceblue;
+    grid-column: 2;
+    grid-row: 6 ;
+}
+
+.ac{
+    background-color: aliceblue;
+    grid-column: 3;
+    grid-row:6 ;
+}
+
+.uguale{
+    background-color: rgb(201, 85, 104);
+    color:black;
+    
+    grid-column: 4;
+    grid-row: 3/7 ;
+}
+
+.piu{
+    background-color:rgb(209, 209, 209);
+    grid-column: 1;
+    grid-row: 2 ;
+}
+
+.meno{
+    background-color:rgb(209, 209, 209);
+    grid-column: 2;
+    grid-row: 2 ;
+}
+
+.per{
+    background-color:rgb(209, 209, 209);
+    grid-column: 3;
+    grid-row: 2 ;
+}
+
+
+.diviso{
+    background-color:rgb(209, 209, 209);
+    grid-column: 4;
+    grid-row: 2 ;
+}
+
+.schermo{  
+    background-color: #3B3635;
+    color:aliceblue;
+    text-align: right;
+    grid-column: 1/5;
+    grid-row:1 ;
+    pointer-events: none;
+}
+
+div:hover{
+    background-color: blanchedalmond;
+}
