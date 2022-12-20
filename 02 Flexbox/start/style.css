@@ -5,6 +5,7 @@
     height: 100vh;
     background-color: #0da336;
     flex-direction: column;
+    border: 5px solid black;
     
         
 }
@@ -12,6 +13,7 @@
 ul{
     display: flex;
     flex-direction: column;
+    position: relative;
 
 }
 
@@ -26,6 +28,7 @@ li{
     text-align: center;
     color: #2b2b2b;
     max-height: 50vh;
+    position:relative
 }
 
 a{
