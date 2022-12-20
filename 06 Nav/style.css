@@ -5,12 +5,21 @@ li {
     
 }
 
+.logo > b {
+ position: sticky;   
+font-size: x-large;
+}
+
+.hamburgerpls{
+    display: none 
+}
 
 .navbar{
     background-color: #3d3c3a;
     height: 50px;
-    display: flex;  
-    width: 40%;
+    display: flex; 
+    justify-content: space-evenly;
+    width: 50%;
     
 }
 
@@ -44,6 +53,20 @@ input{
     height: 20px;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+    li {
+        display: none;
+        
+        }
     
+    .hamburgerpls{
+        display: inline;
+        color:aliceblue;
+        font-size: x-large;
+        margin-bottom: 5px;
+    }
+    
+    .logo{
+        position: static;
+    }
 }
