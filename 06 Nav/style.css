@@ -1,0 +1,72 @@
+li {
+    display: inline;
+    padding-left: 10px;
+    list-style: none;
+    
+}
+
+.logo > b {
+ position: sticky;   
+font-size: x-large;
+}
+
+.hamburgerpls{
+    display: none 
+}
+
+.navbar{
+    background-color: #3d3c3a;
+    height: 50px;
+    display: flex; 
+    justify-content: space-evenly;
+    width: 50%;
+    
+}
+
+b{
+    color: white;
+    
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: darkgrey;
+}
+
+button{
+
+    background-color: #3d3c3a;
+    border: 3px solid green;
+    border-width: 1px;
+    size: 120%;
+}
+
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+input{
+    height: 20px;
+}
+
+@media (max-width: 768px) {
+    li {
+        display: none;
+        
+        }
+    
+    .hamburgerpls{
+        display: inline;
+        color:aliceblue;
+        font-size: x-large;
+        margin-bottom: 5px;
+    }
+    
+    .logo{
+        position: static";
+    }
+}
